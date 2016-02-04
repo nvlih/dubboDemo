@@ -33,4 +33,9 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
 
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+
+    </bean>
+
+
 </beans>
